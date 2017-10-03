@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Prova B1- Registre-se</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet"
+		    type= "text/css"
+		    href= "estilo.css">
+    </head>
+    
+    <body>
+        <selection>
+            <header><h1>Prova B1</h1></header>
+            <p><img src="Logo.png" width="60%" height = "80%"/></p>
+        </selection> 
+        <nav>
+           <h2>Registre-se</h2>
+            <form action ="servidor" method="POST">
+                <label> Digite o nome:</label>
+                    <input type = "text" 
+                    name = "Name_user"
+                    id = "n_user"
+                    maxlength = "30"
+                    placeholder = "Digite seu primeiro nome e ultimo nome"
+                    size "15"
+                    required = "true"><br/>
+
+                <label> data de nascimento </label>
+                <input type = "Data de nascimento"
+                       name= "data de Nascimentor"
+                       maxlength = "8"><br/> 
+
+                <select><br>
+                    <option value= ""> Selecione</option>
+                    <option value= "Feminino">Masculino</option>
+                    <option value= "Masculino">Feminino</option>
+                </select><br>
+
+                <label> RG </label>
+                <input type = "Data de nascimento"
+                       name= "data de Nascimentor"
+                       maxlength = "8"><br/>
+
+                <label> E-mail de contato</label>
+                    <input type = "text" 
+                    name = "Name_user"
+                    id = "n_user"
+                    maxlength = "30"
+                    placeholder = "Digite seu E-mail"<br>
+                    <br>
+                <label> idade </label>
+                <input type = "Data de nascimento"
+                       name= "idade"
+                       maxlength = "3"><br/>   
+
+                <h2>Endereço:</h2>
+                <form action ="servidor" method="POST">
+                    <label> Cep</label>
+                    <input type = "cep"
+                       name= "cep"
+                       maxlength = "10"><br/>
+
+                <label> Rua</label>
+                    <input type = "text" 
+                    name = "Name_user"
+                    id = "n_user"
+                    maxlength = "30"
+                    placeholder = "rua"
+                    <br>
+                    <br>
+                    <label> numero</label>
+                    <input type = "numero"
+                       name= "numero"
+                       maxlength = "10"><br/>
+
+                    <label> complemento</label>
+                    <input type = "texts"
+                       name= "numero"
+                       maxlength = "10"><br/>
+
+                    <label> cidade</label>
+                    <input type = "text"
+                       name= "numero"
+                       maxlength = "10"><br/>
+
+                <h2>Acesso</h2>
+                <form action ="usuário" method="POST">
+                    <label> usuário</label>
+                    <input type = "text"
+                       name= "usuário"
+                       maxlength = "30"><br/>
+
+                    <label> senha</label>
+                    <input type = "text"
+                       name= "usuário"
+                       maxlength = "30"><br/>
+                       
+                    <label> confirmação de senha</label>
+                    <input type = "text"
+                       name= "usuário"
+                       maxlength = "30"><br/>
+                    
+                
+                
+
+                    
+
+        </nav>
+        <a href="index.html">Voltar</a>
+    </body>
+</html>
